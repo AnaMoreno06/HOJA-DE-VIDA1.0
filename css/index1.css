@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+   background: #F9DBBD;
+ }
+ 
+ .name{
+ width: 100%;
+ height: 300px;
+ background:#0D0628 ;
+ transform: skewY(4deg);
+ }
+ .name .diviciones{
+ 
+    width: 90%;
+    height: auto;
+    background: #E6BEAE;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 30px;
+    display: inline;
+ }
+ 
+ .name .content{
+   width: 50%;
+   height: 50%;
+   position: absolute;
+   left: 25%;
+ }
+ 
+ .name .content .P-1{
+  color:white;
+  font-family: 'Sigmar One', cursive;
+  font-weight: bolder; 
+  font-size:46px;
+  transform: skewY(-4deg);
+  margin-bottom: 0%;
+ }
+ 
+ .name .content .P-2{
+   color:white ;
+   font-family: 'Ultra', serif; 
+    font-size:26px;
+    transform: skewY(-4deg);
+    margin-top: 0%;
+    margin-bottom: 0%;
+ }
+ 
+ 
+.name .img{
+
+  position: absolute;
+  top: 18%;
+  right: 5%;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  transform: skewY(-4deg);
+  overflow: hidden;
+  }
+  .name .img img{
+    width: 180px; ;
+    height: 200px; ;
+  }
+  
+ .info{
+   width: 90%;
+   height: auto; 
+   background: white;
+   margin: 5% auto;
+   padding: 20px;
+ }
+ 
+ .info .TituloSeccion{
+    color: black;
+    font-family: 'Hurricane', cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight:bolder ;
+    border-bottom: 2px #0D0628 solid;
+ }
+ 
+ .info .TituloInfo{
+   color: black;
+   font-family: 'Karma', serif;
+   font-weight:bolder ;
+   font-size: large;
+   display:inline ;
+   margin-right: 20px;
+ }
+ 
+ .info .infoInfo{
+   color: #DA627D;
+   font-family: 'Karma', serif;
+   font-weight:bolder ;
+   font-size: large;
+   display: inline;
+ 
+ } 
+ .info .informaciónP{
+ 
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+ }
+ 
